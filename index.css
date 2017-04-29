@@ -1,0 +1,166 @@
+ul {
+    list-style-type: none;
+    display:flex;
+    justify-content: space-around;
+}
+
+#nav {
+    background-color: #333;
+    opacity: 0.5;
+    }
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 150px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+h1{
+    text-align: Center;
+}
+div{
+    text-align: center;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("http://4.bp.blogspot.com/-m2S-PL_Ehng/UwsNA2Hd9EI/AAAAAAAAAcY/uMzhgecaKrs/s1600/dbe3b4ba9359b0daea07c5bae2da8f0f.jpg");
+
+    /* Set a specific height */
+    height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    padding: 18px 18px;
+    display:flex;
+    
+}
+    #eye{
+    height: 400px;
+    width: 500px;
+    margin: -450px auto;
+    z-index:5;
+    position:relative;
+    display: block;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+    }
+
+
+#eye:hover{
+    height: 60px;
+    width: 70px;
+    margin: auto;
+    display: block;
+    
+    }
+    
+    body {
+  background-image:url('http://4.bp.blogspot.com/_q2DyIrP9k3M/Stx3IpvDhRI/AAAAAAAABY4/S45mVsR0b0E/s320/335_tile_DarkNoise.jpg');
+}
+
+#wrapper {
+  position: relative;  
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  box-shadow: inset 0 0 35px 25px #000;
+  overflow: hidden;
+  border: 3px solid black;
+}
+
+  
+.rays1,
+.rays2,
+.rays3,
+.rays4,
+.rays5,
+.rays6,
+.rays7,
+.rays8 {
+  background: url('http://i.imgur.com/5cqkJL6.jpg');
+  
+  width: 495px;
+  height: 495px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -247px 0 0 -247px;  
+  opacity: .125;
+  
+  -webkit-animation-name: rotation;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotation;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+}
+
+.rays1 { 
+  -webkit-animation-duration: 8s;
+  -moz-animation-duration: 8s;
+}
+.rays2 { 
+  -webkit-animation-duration: 16s;
+  -moz-animation-duration: 16s;  
+}
+.rays3 { 
+  -webkit-animation-duration: 24s;
+  -moz-animation-duration: 24s;  
+}
+.rays4 { 
+  -webkit-animation-duration: 32s;
+  -moz-animation-duration: 32s;  
+}
+.rays5 { 
+  -webkit-animation-duration: 40s;
+  -moz-animation-duration: 40s;  
+}
+.rays6 { 
+  -webkit-animation-duration: 48s;
+  -moz-animation-duration: 48s;  
+}
+.rays7 { 
+  -webkit-animation-duration: 56s;
+  -moz-animation-duration: 56s;  
+}
+.rays8 { 
+  -webkit-animation-duration: 64s;
+  -moz-animation-duration: 64s;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);    
+  }
+}
+
+@-moz-keyframes rotation {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);    
+  }
+}
+
+#body{
+   background-color: white;
+   font-family: 'Comfortaa', cursive;
+}
